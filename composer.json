@@ -1,0 +1,27 @@
+{
+    "name": "lamacore/framework",
+    "description": "Lama Core - PHP Mini Framework",
+    "type": "library",
+    "keywords": ["framework"],
+    "homepage": "https://lamacore.github.io/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azp2033",
+            "email": "fantacodeine@mail.ru",
+            "homepage": "https://github.com/azp2033"
+        }
+    ],
+
+    "minimum-stability": "RC",
+    "require": {
+        "php": "^7.0",
+        "twig/twig": "^3.4",
+        "catfan/medoo": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lama\\": ""
+        }
+    }
+}
