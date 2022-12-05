@@ -20,8 +20,8 @@
         "mrjgreen/database": "^2.6"
     },
     "autoload": {
-        "psr-4": {
-            "Lama\\": ""
+        "psr-0": {
+            "Lama": "src"
         }
     }
 }
