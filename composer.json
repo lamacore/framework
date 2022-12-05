@@ -19,8 +19,8 @@
         "mrjgreen/database": "^2.6"
     },
     "autoload": {
-        "psr-0": {
-            "Lama": "src"
+        "psr-4": {
+            "Lama\\": "src"
         }
     }
 }
