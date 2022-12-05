@@ -15,9 +15,9 @@
 
     "minimum-stability": "RC",
     "require": {
-        "php": "^8.0",
+        "php": "^7.0",
         "twig/twig": "^3.4",
-        "catfan/medoo": "^2.1"
+        "mrjgreen/database": "^2.6"
     },
     "autoload": {
         "psr-4": {

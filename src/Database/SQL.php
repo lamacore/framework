@@ -2,7 +2,7 @@
 
 namespace Lama\Database;
 
-use \Medoo\Medoo;
+use \Database\Connectors\ConnectionFactory;
 use \Lama\Storage\Life;
 
 class SQL {
@@ -13,7 +13,8 @@ class SQL {
         }
 
         $config = Life::get('APP_CONFIG_DATABASE');
-        $instance = new Medoo($config);
+        $factory = new ConnectionFactory();
+        $instance = $factory->make($config);
         
         Life::set('APP_DATABASE', $instance);
 
