@@ -32,6 +32,10 @@ class Response {
                 'cache' => false
             ]);
 
+            $twig->addFunction(new \Twig\TwigFunction('life', function($key) {
+                return Life::get($key);
+            }));
+
             Life::set('TWIG_INSTANCE', $twig);
         } else {
             $twig = Life::get('TWIG_INSTANCE');
