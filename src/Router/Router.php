@@ -23,7 +23,7 @@ class Router {
         return $instance;
     }
 
-    public function set404($route, $callback) {
+    public function set404($callback) {
         $this->notfound = $callback;
     }
 
