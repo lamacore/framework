@@ -15,7 +15,6 @@
 
     "minimum-stability": "RC",
     "require": {
-        "php": "^7.0",
         "twig/twig": "^3.4",
         "mrjgreen/database": "^2.6"
     },
