@@ -12,7 +12,7 @@ class Life {
     }
 
     public static function get($name) {
-        $key = Key::make($key);
+        $key = Key::make($name);
 
         if(!self::has($name)) {
             return null;
